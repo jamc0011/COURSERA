@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:elevation="@dimen/elevation_actionbar"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <ImageView
+        android:id="@+id/imageViewAtras"
+        android:layout_width="@dimen/actionbar_tamano_icono"
+        android:layout_height="@dimen/actionbar_tamano_icono"
+        android:src="@drawable/undo_52"
+        android:layout_marginRight="24dp"
+        android:onClick="irMainActivityDos"/>
+
+    <TextView
+        android:id="@+id/textViewNombreApp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/actionbar_padding"
+        android:paddingRight="@dimen/actionbar_padding"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textColor="@color/TextColor"
+        android:textSize="@dimen/actionbar_tamano_icono"/>
+
+    <ImageButton
+        android:id="@+id/imageButtonRaiting"
+        android:paddingLeft="@dimen/actionbar_padding_izquierdo"
+        android:layout_width="@dimen/actionbar_tamano_icono2"
+        android:layout_height="@dimen/actionbar_tamano_icono2"
+        android:background="@drawable/star_48"
+        android:onClick="irFavoritosPerros"
+        />
+</android.support.v7.widget.Toolbar>

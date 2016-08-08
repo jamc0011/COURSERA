@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="cardview_ancho_nombre_perro">200dp</dimen>
+    <dimen name="cardview_margen_derecho">30dp</dimen>
+    <dimen name="actionbar_tamano_icono">25dp</dimen>
+    <dimen name="actionbar_padding">75dp</dimen>
+    <dimen name="actionbar_tamano_icono2">35dp</dimen>
+    <dimen name="actionbar_padding_izquierdo">30dp</dimen>
+    <dimen name="cardview_ancho_iconos">40dp</dimen>
+    <dimen name="cardview_alto_iconos">40dp</dimen>
+    <dimen name="elevation_actionbar">4dp</dimen>
+    <dimen name="cardview_cardCornerRadius">4dp</dimen>
+    <dimen name="cardview_padding_linearLayout">10dp</dimen>
+    <dimen name="cardview_tamano_texto">22dp</dimen>
+    <dimen name="margen_texto_top">10dp</dimen>
+    <dimen name="cv_margin">5dp</dimen>
+    <dimen name="cv_fotos_profile_margin_bottom">16dp</dimen>
+    <dimen name="textSize_foto_profile">20sp</dimen>
+    <dimen name="imagen_circular_width">150dp</dimen>
+    <dimen name="imagen_circular_height">150dp</dimen>
+    <dimen name="civ_border_width">3dp</dimen>
+    <dimen name="profile_margin_top">5dp</dimen>
+    <dimen name="profile_margin_bottom">10dp</dimen>
+
+</resources>
+

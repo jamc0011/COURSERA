@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/imageViewHuella"
+        android:title="buscar"
+        android:icon="@drawable/dog_footprint_64"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom" />
+
+
+    <item android:id="@+id/imageButtonRaiting"
+        android:title="nuevo"
+        android:icon="@drawable/star_48"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom|withText" />
+
+
+    <item android:id="@+id/mContacto"
+        android:title="@string/menu_contacto"
+        android:orderInCategory="3"
+
+        ></item>
+
+    <item android:id="@+id/mAcerdade"
+        android:title="@string/menu_acerdade"
+        android:orderInCategory="4"
+        ></item>
+
+
+</menu>
